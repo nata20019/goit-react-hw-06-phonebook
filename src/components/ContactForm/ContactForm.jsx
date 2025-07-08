@@ -37,7 +37,6 @@ const ContactForm = () => {
     setNumber('');
   };
 
-  // nanoid використовується в contactsSlice.js, тут не потрібно
   const nameInputId = `name-${nanoid()}`;
   const numberInputId = `number-${nanoid()}`;
 
