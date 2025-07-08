@@ -34,5 +34,3 @@ ContactsItem.propTypes = {
   }).isRequired,
   onDelete: PropTypes.func.isRequired,
 };
-
-export default ContactsItem;
