@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid';
 import { useDispatch, useSelector } from 'react-redux';
 import { updateFilter } from '../redux/contactsSlice';
+
 const ContactsSearch = () => {
   const dispatch = useDispatch();
   const filter = useSelector(state => state.contactsBook.filter);
